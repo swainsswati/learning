@@ -37,7 +37,7 @@ a:hover{
 .section{
 
   
-     background-color: rgb(226, 224, 224); 
+     background-color:rgb(236, 235, 235); 
      padding: 100px;
 
 }
@@ -82,23 +82,24 @@ h4{
 
 }
 .section-box{
+    display: flex;
+    flex-direction: row-reverse;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     width: 90%;
-
 }
+
 #divs{
-    width: 400px;
-    margin: 30px;
+    margin: 20px 20px 20px 0;
 }
 .flex{
     display: flex;
-    width: 600px;
+    width: 700px;
     height: 200px;
    
 }
 #discovertag{
-    font-size: 20px;
+    font-size: 15px;
     color: blue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -107,9 +108,9 @@ h4{
    margin: 5px;
     padding: 5px;
 }
-#footer-id{
+/* #footer-id{
    margin-top: 50px;
   
     padding: 10px;
-}
+} */
 
