@@ -1,0 +1,40 @@
+.stylediv{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 5px;
+    border: black 1px solid;
+}
+.secnddiv{
+    margin-left: 100px;
+    size: 80px;
+    padding: 50px;
+    color: white;
+    text-align: center;
+
+}
+.text {
+    top: 60%;
+    color: black;
+    position: absolute;
+    text-align: left;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.p {
+    border-radius: 20px;
+    background-color: white;
+    top: 70%;
+    position: absolute;
+    margin-left: 50px;
+    size: 20px;
+    padding: 10px;
+
+}
+
+.main {
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+}

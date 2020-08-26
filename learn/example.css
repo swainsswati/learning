@@ -1,0 +1,115 @@
+.header{
+
+display: flex;
+padding: 15px;
+background-color: rgb(229, 252, 248);
+
+}
+
+.header div{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    width: 50%;
+
+
+}
+.header button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+   
+    text-decoration: underline;
+}
+#block{
+    word-spacing: 10px;
+    text-align: center;
+   
+}
+.section{
+
+  
+     background-color: rgb(226, 224, 224); 
+     padding: 100px;
+
+}
+#third{
+    text-align: center;
+    padding: 15px;
+}
+h3{
+    font-size:20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+    font-size: 20px;
+}
+#div{
+    margin: auto;
+    width: 60% ;
+    text-align: center;
+}
+.section h1{
+    font-size: 50px;
+    text-align: center;
+}
+.section button{
+    width: 100px;
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 5px;
+}
+.flex-box{
+    display: flex;
+    background-color:white;
+    padding: 20px;
+    margin: 10px;
+}
+.flex-box div{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+  
+  
+
+}
+.section-box{
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+
+}
+#divs{
+    width: 400px;
+    margin: 30px;
+}
+.flex{
+    display: flex;
+    width: 600px;
+    height: 200px;
+   
+}
+#discovertag{
+    font-size: 20px;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.flex div{
+   margin: 5px;
+    padding: 5px;
+}
+#footer-id{
+   margin-top: 50px;
+  
+    padding: 10px;
+}
+
