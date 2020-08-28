@@ -7,7 +7,7 @@ body, html {
 
 display: flex;
 padding: 15px;
-background-color: rgb(229, 252, 248);
+background-color: rgb(241, 245, 255);
 
 }
 
@@ -16,6 +16,7 @@ background-color: rgb(229, 252, 248);
     margin: 5px;
     padding: 5px;
     width: 50%;
+    font-family: 'Roboto', sans-serif;
 
 
 }
@@ -23,8 +24,8 @@ background-color: rgb(229, 252, 248);
     width: 100px;
     height: 30px;
     color: white;
-    background-color: blue;
-    border: 1px solid blue;
+    background-color: rgb(63, 99, 174);
+    border: 1px solid rgb(63, 99, 174);
 }
 a:link{
     color: black;
@@ -35,9 +36,15 @@ a:hover{
     text-decoration: underline;
 }
 #block{
-    word-spacing: 10px;
+    word-spacing: 20px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
    
+   
+}
+#block a{
+    color: black;
+
 }
 .section{
 
@@ -49,42 +56,46 @@ a:hover{
 #third{
     text-align: center;
     padding: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 h3{
     font-size:20px ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 h4{
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 #div{
     margin: auto;
     width: 60% ;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 .section h1{
     font-size: 50px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 .section button{
     width: 100px;
-    border: 1px solid blue;
+    border: 1px solid rgb(63, 99, 174);
     padding: 5px;
     margin: 5px;
     cursor: pointer;
 }
 .flex-box{
     display: flex;
-    background-color:white;
-    padding: 20px;
-    margin: 10px;
+
+    padding: 10px;
+    margin: 5px;
+
 }
 .flex-box div{
     text-align: center;
     margin: 5px;
     padding: 5px;
-  
-  
+    font-family: 'Roboto', sans-serif;
 
 }
 .section-box{
@@ -96,25 +107,33 @@ h4{
 }
 
 #divs{
-    margin: 20px 20px 20px 0;
+    margin: 30px 30px 30px 30px;
+    font-size: 20px;
 }
-#divs h3{
-    width: 50%;
+#divs h2{
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
 }
+
 .flex{
+    width: 650px;
     display: flex;
     height: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    
    
 }
 #discovertag{
     font-size: 15px;
-    color: blue;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(63, 99, 174);
+    font-family: 'Roboto', sans-serif;
 }
 
 .flex div{
    margin: 5px;
     padding: 5px;
+    font-family: 'Roboto', sans-serif;;
 }
 
 
