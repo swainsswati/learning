@@ -1,0 +1,470 @@
+body, html {
+padding: 0;
+margin: 0;
+}
+
+@font-face {
+  font-family: 'AvenirLight';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: normal;
+  src: local(“MyriadProLight”),
+    url(/Font/fonts/Avenir-Light.woff) format(“woff”);
+}
+@font-face{
+  font-family: "AvenirBlack";
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: normal;
+  src:local(“MyriadProLight”), url(/Font/fonts/Avenir-Black.woff) format("woff");
+}
+@font-face{
+  font-family: "AvenirBook";
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: normal;
+  src:local(“MyriadProLight”), url(/Font/fonts/Avenir-Book.woff) format("woff");
+}
+
+@font-face{
+  font-family: "AvenirMedium";
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: normal;
+  src:local(“MyriadProLight”), url(/Font/fonts/Avenir-Medium.woff) format("woff");
+}
+@font-face{
+  font-family: "AvenirHeavy";
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: normal;
+  src:local(“MyriadProLight”), url(/Font/fonts/Avenir-Heavy.woff) format("woff");
+}
+@font-face{
+  font-family: "AvenirRoman";
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: normal;
+  src:local(“MyriadProLight”), url(/Font/fonts/Avenir-Roman.woff) format("woff");
+}
+
+.header{
+display: flex;
+padding: 20px;
+width: 100%;
+height: 73px;
+background-color: #ffffff;
+
+}
+
+#blocks{
+
+width: 120%;
+text-align: right;
+padding: 5px;
+margin-left: 130px;
+
+}
+#blocks ul{
+    
+float: left;
+display: flex;
+width: 100%;
+text-align: center;
+margin-left: 20px;
+}
+#blocks ul li{
+  font-family: 'AvenirLight';
+font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.36;
+letter-spacing: 0.4px;
+float: left;
+list-style-type: none;
+
+text-align: center;
+margin-left: 25px;
+   
+}
+#blocks ul li a{
+  
+  font-family: 'AvenirLight';
+margin: 10px;
+padding: 10px;
+text-decoration: none;
+color: #444444;
+text-align: center;
+}
+#blocks button{
+
+width: 106px;
+height: 30px;
+background-color: #3382d9;
+border: 1px solid #3382d9;
+font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+color: #ffffff;
+
+}
+#block-image{
+background-image: url(block-background.png);
+height: 100%;
+z-index: 1;
+position: absolute;
+text-align: center;
+background-size: contain;
+width: 80%;
+top: 16%;
+left: 10%;
+background-repeat: no-repeat;
+}
+
+
+#background h2{
+  font-family: 'AvenirLight';
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 45px;
+  font-weight: 900;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.container-box {
+background: linear-gradient( to top, rgba(255, 255, 255, 0.22), rgb(0 225 198 / 25%), #ffffff );
+width: 100%;
+height: 700px;
+-webkit-box-pack: center;
+-webkit-justify-content: center;
+-ms-flex-pack: center;
+justify-content: center;
+position: relative;
+z-index:-1;
+}
+
+#background{
+display: flex;
+justify-content: center;
+margin: -30px 0 10px 0;
+
+
+}
+#paragraph{
+margin: auto;
+width: 485px;
+text-align: center;
+font-family: 'AvenirLight';
+  font-size: 21px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 0.2px;
+  color: #5c5c5c;
+  margin-top: 25px;
+}
+
+
+#paragraph button{
+ 
+    width: 190px;
+    height: 52px;
+    box-shadow: 0 4px 31px 0 rgba(0, 0, 0, 0.15);
+    background-color: #49c5b6;
+  border: 1px solid #49c5b6;
+  color: #ffffff;
+  font-family: 'AvenirLight';
+  font-size: 16px;
+  margin: 10px;
+}
+
+#backgroung-image{
+    background-image: url(Vector.png);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+    top: 80%;
+    height: 58%;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#image{
+  
+  margin: auto;
+  width: 100%;
+  height: 770px;
+  
+  margin-top: -470px;
+
+  padding: 10px;
+
+  }
+  .siaraaTitle{
+    text-align: center;
+    height: 600px;
+
+  }
+  .siaraaTitle h3 {
+    font-family: 'AvenirLight';
+    font-size: 26px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top: 10px;
+
+  }
+  .siaraaTitle h2{
+   
+      
+    font-family: 'AvenirLight';
+    font-size: 36px;
+    font-weight: 9005;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.30;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+  #box{
+    margin: auto;
+    width: 1200px;
+    text-align: left;
+    margin-top: 57px;
+     height: 407px;
+     
+    
+  }
+  #box p{
+   width: 1011px;
+   
+   font-size: 21px;
+   font-weight: 300;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.52;
+   letter-spacing: normal;
+   color: #ffffff;
+  }
+  .thirdBanner {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  .keyTitle {
+    font-family: 'AvenirLight';
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 200;
+    color: #252c35;
+    margin: 50px 0;
+  }
+
+  .features {
+    list-style: none;
+    font-size: 18px;
+    color: #52545b;
+    font-family: 'AvenirLight';
+    font-weight: 500;
+    display: flex;
+    margin-bottom: 12px;
+    line-height: 1.33;
+    letter-spacing: normal;
+  
+  
+  }
+  .arrow {
+    margin: 0 10px 0 0;
+    height: 18px;
+    width: 18px;
+  
+  }
+  .card-container {
+    display: flex;   
+    
+  }
+  .card-container .card {
+    border: none;
+    margin: 12px;
+    height: 170px;
+    width: 170px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .card-container .card .card-body {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -40%);
+  }
+  .branding {
+    height: 550px;
+    background-color: #3382d9;
+    margin-top: -2px;
+    padding: 8% 6%;
+}
+.brandingTitle 
+{
+  width: 562px;
+height: 99px;
+font-family: 'AvenirLight';
+font-size: 38px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.29;
+letter-spacing: normal;
+color: #ffffff;
+margin-top: 40px;
+}
+.brandingpara 
+{
+  width: 496px;
+  height: 63px;
+  margin-top: 10px;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #fbfbfb;
+}
+.brandingimg {
+  
+    width: 478.6px;
+    height: 311.1px;
+    object-fit: contain;
+    text-align: right;
+  
+}
+
+.brandingSvg {
+  margin-top: -3%;
+  width: 100%;
+}
+.section-third{
+
+  margin: 20px;
+ 
+}
+.contact {
+  height: 650px;
+  background-color: #ffffff;
+  margin-top: -15px;
+  padding: 6% 8%;
+}
+.contactTitle {
+  width: 528px;
+  height: 50px;
+  font-family: 'AvenirLight';
+  font-size: 38px;
+  color: #52545b;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #52545b;
+}
+.contactpara {
+  width: 500px;
+  font-family: 'AvenirLight';
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #676c7f;
+}
+.contactdetails {
+  width: 200px;
+  margin: 4% 10% 0px 0px;
+  font-size: 21px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #676c7f;
+}
+.banners{
+  top: 50%;
+   
+}
+
+.rectangle-box1 {
+  width: 800px;
+  height: 97px;
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  background-color: #222222;
+}
+.rectangle-box2 {
+  width: 800px;
+  height: 97px;
+  border-right: 1px solid #ffffff;
+  background-color: #222222;
+  margin: 0;
+
+ 
+  padding: 8px;
+
+}
+.rectangle-box2 ul{
+  float: left;
+display: block;
+width: 100%;
+}
+#rectangle-box2 ul li{
+  
+   
+  
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: 0.4px;
+  float: left;
+  list-style-type: none;
+  margin: 5px;
+  text-align: center;
+  color: #444444;
+ 
+}
+#rectangle-box2 ul li a{
+  
+display: flex;
+   margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    
+    text-align: center;
+}
+  .rectangle2{
+   float: right;
+      width: 1200px;
+      height: 189px;
+      background-color: #222222;
+    
+  }
